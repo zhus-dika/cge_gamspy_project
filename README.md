@@ -11,11 +11,11 @@
 
 convert full format of SAM table 
 
-<img src="https://github.com/zhus-dika/cge_gamspy/blob/main/data/sam_type_2.jpeg" alt="drawing" width="650"/>
+<img src="https://github.com/zhus-dika/cge_gamspy_project/blob/main/data/sam_type_2.jpeg" alt="drawing" width="650"/>
 
 to short format:
 
-<img src="https://github.com/zhus-dika/cge_gamspy/blob/main/data/sam_type_1.PNG" alt="drawing" width="650"/>
+<img src="https://github.com/zhus-dika/cge_gamspy_project/blob/main/data/sam_type_1.PNG" alt="drawing" width="650"/>
 
 ### *aggregate.py* 
 
