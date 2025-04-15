@@ -17,7 +17,7 @@ from __future__ import annotations
 
 import numpy as np
 import os
-import pandas as pd
+import pandas
 from gamspy import (
     Alias,
     Container,
@@ -36,7 +36,7 @@ from gamspy import (
 
 current_path = os.path.abspath(os.path.dirname(__file__))
 sam_path = os.path.join(current_path, "data", "aggregated_sam.xlsx")
-sam = pd.read_excel(sam_path, index_col=0, header=0)
+sam = pandas.read_excel(sam_path, index_col=0, header=0)
 n_groups = 9
 
 def main():
@@ -102,7 +102,7 @@ def main():
         name="SAM",
         domain=[u, v],
         records=sam_data,
-        description="social accounting matrix of Kazakhstan for 2017 [bil. USD]",
+        description="social accounting matrix of Kazakhstan for 2017 [KZT]",
     )
 
     # Source: compiled by N. Hosoe, based on the I/O table for 2005
@@ -1570,31 +1570,54 @@ def main():
 
     print("EV_TTL: ", round(EV_TTL.records.value[0], 3))
 
-    import pandas as pd
-    import plotly.express as px
 
-    # Преобразуем Z (если это Parameter или Variable gamspy) в DataFrame
-    # df_Z = dZ.records  # если Z = Variable или Parameter
-    # df_Z.columns = ['industry', 'year', 'value']
+    # df_Xp = dXp.records
+    # df_Xp.columns = ['good', 'year', 'value']
     #
-    # df_Z["year"] = df_Z["year"].astype(int) + 2017  # если t=1 → 2017, t=2 → 2018, и т.д.
+    # df_Xp["year"] = df_Xp["year"].astype(int) + 2017  # если t=1 → 2017, t=2 → 2018, и т.д.
     #
     # # Строим интерактивный график
-    # fig = px.line(df_Z, x="year", y="value", color="industry", markers=True,
-    #               title="Change of gross output                 [%]",
-    #               labels={"value": "gross output", "year": "year", "industry": "industry"})
+    # fig = px.line(df_Xp, x="year", y="value", color="good", markers=True,
+    #               title="Change of household consumption by good                [%]",
+    #               labels={"value": "household consumption", "year": "year", "good": "good"})
+    # fig.show()
 
-    df_Xp = dXp.records
-    df_Xp.columns = ['good', 'year', 'value']
+    # Create directory
+    output_dir = os.path.join(current_path, "data", "cge_results")
+    os.makedirs(output_dir, exist_ok=True)
 
-    df_Xp["year"] = df_Xp["year"].astype(int) + 2017  # если t=1 → 2017, t=2 → 2018, и т.д.
+    # List of the parameters
+    params_to_save = [
+        dY, dTc, dTe, dF, dX, dZ, dXp, dXv, dE, dM, dQ, dD,
+        dSp, dTd, dTz, dTm, dFF, dKK, dII, dIII, dCC,
+        dpz, dpd, dpm, dpe, dpq, dpf, dpy, depsilon, dpk,
+        gY0, gF0, gX0, gZ0, gXp0, gXv0, gE0, gM0, gQ0, gD0,
+        gSp0, gTd0, gTz0, gTm0, gFF0, gKK0, gII0, gIII0, gCC0,
+        gY1, gF1, gX1, gZ1, gXp1, gXv1, gE1, gM1, gQ1, gD1,
+        gSp1, gTd1, gTz1, gTm1, gTc1, gTe1, gFF1, gKK1, gII1, gIII1, gCC1,
+        EV
+    ]
 
-    # Строим интерактивный график
-    fig = px.line(df_Xp, x="year", y="value", color="good", markers=True,
-                  title="Change of household consumption by good                [%]",
-                  labels={"value": "household consumption", "year": "year", "good": "good"})
-    fig.show()
+    # Save parameters
+    for param in params_to_save:
+        if param.records is not None:
+            df = param.records.copy()
+            df.to_csv(f"{output_dir}/{param.name}.csv", index=False)
+        else:
+            print(f"⚠️  Параметр {param.name} не имеет записей (records = None)")
 
+    print(f"✅ All parameters (taking into account the dimensions) are saved in the folder: {output_dir}")
+
+    desc_records = []
+    for param in params_to_save:
+        if param.records is not None:
+            desc_records.append({
+                "name": param.name,
+                "description": param.description
+            })
+
+    desc_df = pandas.DataFrame(desc_records)
+    desc_df.to_csv(f"{output_dir}/descriptions.csv", index=False)
 
 if __name__ == "__main__":
     main()
