@@ -1570,18 +1570,6 @@ def main():
 
     print("EV_TTL: ", round(EV_TTL.records.value[0], 3))
 
-
-    # df_Xp = dXp.records
-    # df_Xp.columns = ['good', 'year', 'value']
-    #
-    # df_Xp["year"] = df_Xp["year"].astype(int) + 2017  # если t=1 → 2017, t=2 → 2018, и т.д.
-    #
-    # # Строим интерактивный график
-    # fig = px.line(df_Xp, x="year", y="value", color="good", markers=True,
-    #               title="Change of household consumption by good                [%]",
-    #               labels={"value": "household consumption", "year": "year", "good": "good"})
-    # fig.show()
-
     # Create directory
     output_dir = os.path.join(current_path, "data", "cge_results")
     os.makedirs(output_dir, exist_ok=True)
