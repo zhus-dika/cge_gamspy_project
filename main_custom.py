@@ -466,10 +466,16 @@ def main():
     # ===============================================================
     # Parameters
     sigma = Parameter(
-        m, name="sigma", domain=i, description="elasticity of substitution"
+        m, name="sigma", domain=i, description="elasticity of substitution",
+        records=[['Primary and Light Industry', 0.5], ['Heavy Industry and Manufacturing', 1.2],
+                 ['Utilities and Transport', 0.6], ['Trade and Finance', 0.8],
+                 ['Social and Professional Services', 0.4]]
     )
     psi = Parameter(
-        m, name="psi", domain=i, description="elasticity of transformation"
+        m, name="psi", domain=i, description="elasticity of transformation",
+        # records=[['Primary and Light Industry', 3.5], ['Heavy Industry and Manufacturing', 3.0],
+        #          ['Utilities and Transport', 2.5], ['Trade and Finance', 1.5],
+        #          ['Social and Professional Services', 1.0]]
     )
     eta = Parameter(
         m,
@@ -484,7 +490,7 @@ def main():
         description="transformation elasticity parameter",
     )
 
-    sigma[i] = 2
+    # sigma[i] = 2
     psi[i] = 2
     eta[i] = (sigma[i] - 1) / sigma[i]
     phi[i] = (psi[i] + 1) / psi[i]

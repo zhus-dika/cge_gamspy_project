@@ -1,111 +1,111 @@
 h,j,t,value
-CAP,Heavy Industry and Manufacturing,0,2.7345846487606185
-CAP,Heavy Industry and Manufacturing,1,2.549802120530331
-CAP,Heavy Industry and Manufacturing,2,2.369616345852088
-CAP,Heavy Industry and Manufacturing,3,2.194214338944156
-CAP,Heavy Industry and Manufacturing,4,2.023723533940669
-CAP,Heavy Industry and Manufacturing,5,1.858221750322664
-CAP,Heavy Industry and Manufacturing,6,1.697745583510435
-CAP,Heavy Industry and Manufacturing,7,1.5422974834569336
-CAP,Heavy Industry and Manufacturing,8,1.3918517356346527
-CAP,Heavy Industry and Manufacturing,9,1.2463595203721756
-CAP,Heavy Industry and Manufacturing,10,1.1057531958736933
-CAP,Primary and Light Industry,0,-7.010765830420107
-CAP,Primary and Light Industry,1,-6.632279152351139
-CAP,Primary and Light Industry,2,-6.281443630953698
-CAP,Primary and Light Industry,3,-5.956361160889944
-CAP,Primary and Light Industry,4,-5.655261196041672
-CAP,Primary and Light Industry,5,-5.3764917962759835
-CAP,Primary and Light Industry,6,-5.118511473540865
-CAP,Primary and Light Industry,7,-4.879881719138524
-CAP,Primary and Light Industry,8,-4.6592601200581285
-CAP,Primary and Light Industry,9,-4.455393992023382
-CAP,Primary and Light Industry,10,-4.2671144712493225
-CAP,Social and Professional Services,0,2.0370201188546044
-CAP,Social and Professional Services,1,1.7564170960713943
-CAP,Social and Professional Services,2,1.4952623150990219
-CAP,Social and Professional Services,3,1.2520650420904333
-CAP,Social and Professional Services,4,1.0254578915981805
-CAP,Social and Professional Services,5,0.8141860086345432
-CAP,Social and Professional Services,6,0.6170972029061028
-CAP,Social and Professional Services,7,0.4331329694145847
-CAP,Social and Professional Services,8,0.26132032596790644
-CAP,Social and Professional Services,9,0.10076439840276397
-CAP,Social and Professional Services,10,-0.049358313064495896
-CAP,Trade and Finance,0,1.0806702198409734
-CAP,Trade and Finance,1,0.9157146853865594
-CAP,Trade and Finance,2,0.7578143502373402
-CAP,Trade and Finance,3,0.6068391576284027
-CAP,Trade and Finance,4,0.4626214254169314
-CAP,Trade and Finance,5,0.324966012773209
-CAP,Trade and Finance,6,0.19365840303400272
-CAP,Trade and Finance,7,0.06847112275290002
-CAP,Trade and Finance,8,-0.05083117190971542
-CAP,Trade and Finance,9,-0.16448767900711925
-CAP,Trade and Finance,10,-0.27273829586887954
-CAP,Utilities and Transport,0,1.5828440276985267
-CAP,Utilities and Transport,1,1.2700868282140787
-CAP,Utilities and Transport,2,0.9882202351532587
-CAP,Utilities and Transport,3,0.7335479438460579
-CAP,Utilities and Transport,4,0.5028815813062026
-CAP,Utilities and Transport,5,0.2934619447717113
-CAP,Utilities and Transport,6,0.1028939599919898
-CAP,Utilities and Transport,7,-0.07090731399613803
-CAP,Utilities and Transport,8,-0.22976172932940297
-CAP,Utilities and Transport,9,-0.3752617971019001
-CAP,Utilities and Transport,10,-0.5088044544827364
-LAB,Heavy Industry and Manufacturing,0,0.41539106759058697
-LAB,Heavy Industry and Manufacturing,1,0.5701919713529069
-LAB,Heavy Industry and Manufacturing,2,0.7193032911567032
-LAB,Heavy Industry and Manufacturing,3,0.8630285877363475
-LAB,Heavy Industry and Manufacturing,4,1.0016445776435345
-LAB,Heavy Industry and Manufacturing,5,1.1354045082114572
-LAB,Heavy Industry and Manufacturing,6,1.264541017292209
-LAB,Heavy Industry and Manufacturing,7,1.3892685687865614
-LAB,Heavy Industry and Manufacturing,8,1.5097855365265422
-LAB,Heavy Industry and Manufacturing,9,1.6262759948750372
-LAB,Heavy Industry and Manufacturing,10,1.7389112633725112
-LAB,Primary and Light Industry,0,0.41539106759058697
-LAB,Primary and Light Industry,1,0.5701919713529069
-LAB,Primary and Light Industry,2,0.7193032911567032
-LAB,Primary and Light Industry,3,0.8630285877363475
-LAB,Primary and Light Industry,4,1.0016445776435345
-LAB,Primary and Light Industry,5,1.1354045082114572
-LAB,Primary and Light Industry,6,1.264541017292209
-LAB,Primary and Light Industry,7,1.3892685687865614
-LAB,Primary and Light Industry,8,1.5097855365265422
-LAB,Primary and Light Industry,9,1.6262759948750372
-LAB,Primary and Light Industry,10,1.7389112633725112
-LAB,Social and Professional Services,0,0.41539106759058697
-LAB,Social and Professional Services,1,0.5701919713529069
-LAB,Social and Professional Services,2,0.7193032911567032
-LAB,Social and Professional Services,3,0.8630285877363475
-LAB,Social and Professional Services,4,1.0016445776435345
-LAB,Social and Professional Services,5,1.1354045082114572
-LAB,Social and Professional Services,6,1.264541017292209
-LAB,Social and Professional Services,7,1.3892685687865614
-LAB,Social and Professional Services,8,1.5097855365265422
-LAB,Social and Professional Services,9,1.6262759948750372
-LAB,Social and Professional Services,10,1.7389112633725112
-LAB,Trade and Finance,0,0.41539106759058697
-LAB,Trade and Finance,1,0.5701919713529069
-LAB,Trade and Finance,2,0.7193032911567032
-LAB,Trade and Finance,3,0.8630285877363475
-LAB,Trade and Finance,4,1.0016445776435345
-LAB,Trade and Finance,5,1.1354045082114572
-LAB,Trade and Finance,6,1.264541017292209
-LAB,Trade and Finance,7,1.3892685687865614
-LAB,Trade and Finance,8,1.5097855365265422
-LAB,Trade and Finance,9,1.6262759948750372
-LAB,Trade and Finance,10,1.7389112633725112
-LAB,Utilities and Transport,0,0.41539106759058697
-LAB,Utilities and Transport,1,0.5701919713529069
-LAB,Utilities and Transport,2,0.7193032911567032
-LAB,Utilities and Transport,3,0.8630285877363475
-LAB,Utilities and Transport,4,1.0016445776435345
-LAB,Utilities and Transport,5,1.1354045082114572
-LAB,Utilities and Transport,6,1.264541017292209
-LAB,Utilities and Transport,7,1.3892685687865614
-LAB,Utilities and Transport,8,1.5097855365265422
-LAB,Utilities and Transport,9,1.6262759948750372
-LAB,Utilities and Transport,10,1.7389112633725112
+CAP,Heavy Industry and Manufacturing,0,4.5186445603630165
+CAP,Heavy Industry and Manufacturing,1,4.13133639694343
+CAP,Heavy Industry and Manufacturing,2,3.768496214247641
+CAP,Heavy Industry and Manufacturing,3,3.428398060738469
+CAP,Heavy Industry and Manufacturing,4,3.1094428730010115
+CAP,Heavy Industry and Manufacturing,5,2.810149688198482
+CAP,Heavy Industry and Manufacturing,6,2.5291472303529794
+CAP,Heavy Industry and Manufacturing,7,2.265165931671076
+CAP,Heavy Industry and Manufacturing,8,2.0170304193656063
+CAP,Heavy Industry and Manufacturing,9,1.7836524776183804
+CAP,Heavy Industry and Manufacturing,10,1.5640244802687109
+CAP,Primary and Light Industry,0,-8.421184702227357
+CAP,Primary and Light Industry,1,-7.8952919055306765
+CAP,Primary and Light Industry,2,-7.410770195607008
+CAP,Primary and Light Industry,3,-6.964631861361648
+CAP,Primary and Light Industry,4,-6.554085373810681
+CAP,Primary and Light Industry,5,-6.176524544256234
+CAP,Primary and Light Industry,6,-5.829518101718101
+CAP,Primary and Light Industry,7,-5.51079966892064
+CAP,Primary and Light Industry,8,-5.218258127220466
+CAP,Primary and Light Industry,9,-4.949928367128365
+CAP,Primary and Light Industry,10,-4.703982424183895
+CAP,Social and Professional Services,0,3.3834524864796434
+CAP,Social and Professional Services,1,2.9187479984936537
+CAP,Social and Professional Services,2,2.495994173959204
+CAP,Social and Professional Services,3,2.1108983638796763
+CAP,Social and Professional Services,4,1.7596627564833378
+CAP,Social and Professional Services,5,1.4389191397715662
+CAP,Social and Professional Services,6,1.1456735924638917
+CAP,Social and Professional Services,7,0.8772593739282186
+CAP,Social and Professional Services,8,0.6312966215292093
+CAP,Social and Professional Services,9,0.40565772907181774
+CAP,Social and Professional Services,10,0.19843748958621177
+CAP,Trade and Finance,0,0.5679860692636485
+CAP,Trade and Finance,1,0.44952172643228927
+CAP,Trade and Finance,2,0.3322807299670272
+CAP,Trade and Finance,3,0.21688736396558994
+CAP,Trade and Finance,4,0.10382735541529797
+CAP,Trade and Finance,5,-0.006527908671127847
+CAP,Trade and Finance,6,-0.11390128902192265
+CAP,Trade and Finance,7,-0.21809319894319223
+CAP,Trade and Finance,8,-0.3189677145341907
+CAP,Trade and Finance,9,-0.41644100750588553
+CAP,Trade and Finance,10,-0.5104717056625518
+CAP,Utilities and Transport,0,0.7984245882352248
+CAP,Utilities and Transport,1,0.5582679195774487
+CAP,Utilities and Transport,2,0.3406107793864743
+CAP,Utilities and Transport,3,0.1427971820613827
+CAP,Utilities and Transport,4,-0.03746362364396294
+CAP,Utilities and Transport,5,-0.20215359426637436
+CAP,Utilities and Transport,6,-0.3529926586280485
+CAP,Utilities and Transport,7,-0.4914776411619415
+CAP,Utilities and Transport,8,-0.618914790685221
+CAP,Utilities and Transport,9,-0.7364470700202408
+CAP,Utilities and Transport,10,-0.8450771331888762
+LAB,Heavy Industry and Manufacturing,0,0.7051086268666573
+LAB,Heavy Industry and Manufacturing,1,0.8402201083231642
+LAB,Heavy Industry and Manufacturing,2,0.9716759082227577
+LAB,Heavy Industry and Manufacturing,3,1.0995942377541867
+LAB,Heavy Industry and Manufacturing,4,1.224082336874499
+LAB,Heavy Industry and Manufacturing,5,1.3452385204522077
+LAB,Heavy Industry and Manufacturing,6,1.4631538313047088
+LAB,Heavy Industry and Manufacturing,7,1.5779133751141705
+LAB,Heavy Industry and Manufacturing,8,1.6895973971305267
+LAB,Heavy Industry and Manufacturing,9,1.7982821488140788
+LAB,Heavy Industry and Manufacturing,10,1.9040405831836305
+LAB,Primary and Light Industry,0,0.7051086268666573
+LAB,Primary and Light Industry,1,0.8402201083231642
+LAB,Primary and Light Industry,2,0.9716759082227577
+LAB,Primary and Light Industry,3,1.0995942377541867
+LAB,Primary and Light Industry,4,1.224082336874499
+LAB,Primary and Light Industry,5,1.3452385204522077
+LAB,Primary and Light Industry,6,1.4631538313047088
+LAB,Primary and Light Industry,7,1.5779133751141705
+LAB,Primary and Light Industry,8,1.6895973971305267
+LAB,Primary and Light Industry,9,1.7982821488140788
+LAB,Primary and Light Industry,10,1.9040405831836305
+LAB,Social and Professional Services,0,0.7051086268666573
+LAB,Social and Professional Services,1,0.8402201083231642
+LAB,Social and Professional Services,2,0.9716759082227577
+LAB,Social and Professional Services,3,1.0995942377541867
+LAB,Social and Professional Services,4,1.224082336874499
+LAB,Social and Professional Services,5,1.3452385204522077
+LAB,Social and Professional Services,6,1.4631538313047088
+LAB,Social and Professional Services,7,1.5779133751141705
+LAB,Social and Professional Services,8,1.6895973971305267
+LAB,Social and Professional Services,9,1.7982821488140788
+LAB,Social and Professional Services,10,1.9040405831836305
+LAB,Trade and Finance,0,0.7051086268666573
+LAB,Trade and Finance,1,0.8402201083231642
+LAB,Trade and Finance,2,0.9716759082227577
+LAB,Trade and Finance,3,1.0995942377541867
+LAB,Trade and Finance,4,1.224082336874499
+LAB,Trade and Finance,5,1.3452385204522077
+LAB,Trade and Finance,6,1.4631538313047088
+LAB,Trade and Finance,7,1.5779133751141705
+LAB,Trade and Finance,8,1.6895973971305267
+LAB,Trade and Finance,9,1.7982821488140788
+LAB,Trade and Finance,10,1.9040405831836305
+LAB,Utilities and Transport,0,0.7051086268666573
+LAB,Utilities and Transport,1,0.8402201083231642
+LAB,Utilities and Transport,2,0.9716759082227577
+LAB,Utilities and Transport,3,1.0995942377541867
+LAB,Utilities and Transport,4,1.224082336874499
+LAB,Utilities and Transport,5,1.3452385204522077
+LAB,Utilities and Transport,6,1.4631538313047088
+LAB,Utilities and Transport,7,1.5779133751141705
+LAB,Utilities and Transport,8,1.6895973971305267
+LAB,Utilities and Transport,9,1.7982821488140788
+LAB,Utilities and Transport,10,1.9040405831836305
